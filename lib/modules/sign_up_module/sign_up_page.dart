@@ -16,7 +16,6 @@ class SignUpPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      resizeToAvoidBottomPadding: false,
       backgroundColor: Colors.white,
       body: GetBuilder<SignUpController>(builder: (gxValues) {
         return SafeArea(
